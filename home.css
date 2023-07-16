@@ -52,9 +52,23 @@
 }
 
 .wrapper-date {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 15rem;
     height: 20rem;
     background-color: var(--secondary-color);
+}
+
+.wrapper-date img {
+    position: absolute;
+    transform: translateY(-185%);
+}
+
+.wrapper-sub {
+    border: solid 1px black;
+    height: 90%;
+    width: 90%;    
 }
 
