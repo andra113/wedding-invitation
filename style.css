@@ -1,4 +1,13 @@
-root {
+
+:root {
+    --primary-color: #deb3ad;
+    --secondary-color: #fedef3;
+    --button-color: #b95c50;
+
+    --text-sm:	font-size: 0.875rem; /* 14px */
+    --text-base:	font-size: 1rem; /* 16px */
+    --text-lg:	font-size: 1.125rem; /* 18px */
+
 
 }
 
@@ -8,8 +17,8 @@ root {
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
+.cover-container {
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -35,11 +44,10 @@ h1 {
 }
 
 .btn {
-    width: 20vw;
-    height: 10vh;
-    border-radius: 5rem;
+    width: 10rem;
+    height: 7vh;
     font-family: Roboto, sans-serif;
-    font-size: 1.1rem;
+    font-size: var(--text-sm);
     color: #ffffff;
     background-color:#B95C50 ;
     cursor: pointer;
