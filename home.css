@@ -1,9 +1,10 @@
 .header {
-    width: 100vw;
+    width: 99vw;
     background-color: var(--secondary-color);
     top: 0;
     text-align: center;
     padding: 0.5rem 0;
+    margin-bottom: 1rem;
 }
 
 .container {
@@ -11,8 +12,9 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    height: 40vh;
+    gap: 0.5rem;
+    width: 99vw;
+    height: 60rem;
     background-color: var(--primary-color);
 }
 
@@ -20,14 +22,14 @@
     background-image: url(/img/bg.png);
     background-size: cover;
     height: 25vh;
-    position: relative;
-    width: 100vw;
+    width: 99vw;
     transform: translateY(-30px);
+    margin-top: -1.7rem;
 
 }
 
 .top-section-text {
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,5 +37,24 @@
     position: absolute;
     transform: translateY(50px);
     text-align: center;
+}
+
+.font-home {
+    font-family: Caladea, sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.top-section-text h1 {
+    padding-top: 1rem;
+    letter-spacing: 0.5rem;
+}
+
+.wrapper-date {
+    
+    width: 15rem;
+    height: 20rem;
+    background-color: var(--secondary-color);
 }
 
