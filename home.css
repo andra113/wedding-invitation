@@ -1,10 +1,22 @@
 .header {
+    display: none;
     width: 100vw;
+    height: 3.1875rem;
     background-color: var(--secondary-color);
     top: 0;
+}
+
+.header.active {
+    display: block;
+}
+
+.header-text {
+    font-family: Dancing Script, sans-serif;
+    color: #965a00;
+    font-size: 1.5rem;
+    font-weight: 400;
     text-align: center;
     padding: 0.5rem 0;
-    margin-bottom: 1rem;
 }
 
 .container {
